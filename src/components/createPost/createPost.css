@@ -1,0 +1,26 @@
+.editor-cont{
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    align-items: center;
+}
+
+.text-edit{
+    background-color:  #282c34; 
+    color: #f6f6f6;
+    font-family: "Reddit Mono", monospace;
+outline: none;
+border:2px solid #fff;
+border-radius: 10px;
+height: fit-content;
+font-size: 20px;
+padding:10px;
+margin-bottom: 20px;
+resize:none;
+width: 80%; 
+
+}
+
+.err{
+    border-color: red;
+}

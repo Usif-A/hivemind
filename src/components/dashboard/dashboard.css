@@ -1,0 +1,39 @@
+
+.dash-cont{
+    width: 100%;
+    justify-content: space-around;
+}
+
+.dashboard-card{
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 6px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+}
+
+.post-sel{
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color:#c2c4c6;
+}
+
+.dash-card-cont{
+    margin-left:30px;
+    margin-top:30px;
+}
+.dropdown-menu {
+    height: 300px;
+    overflow-y: scroll;
+    
+  }
+
+
+
+  

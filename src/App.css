@@ -1,5 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
 .App {
   text-align: center;
+}
+
+body{
+  background-color: #282c34;
+  color: #f6f6f6;
+  font-family: "Reddit Mono", monospace;
+}
+
+.sidebar{
+  border-right: 1px solid #f0ead6 !important;
+  height: 100vh;
+  text-align: left;
+  
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.nav-main{
+  font-size: 35px;
+  padding-right:30px;
+  padding-left: 10px;
+  padding-top: 50px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  border-bottom: 1px solid #f0ead6 !important;
+  user-select: none;
+}
+
+.nav-main-selected{
+  
+  color: #000;
+  background-color: #f0ead6;
+  
+}
+
+.nav-main:hover{
+  color: #000;
+  background-color: #f0ead6;
+  cursor: pointer;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
 }
 
 .App-logo {
@@ -24,15 +75,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+@media screen and (max-width: 600px) {}
