@@ -24,3 +24,10 @@ width: 80%;
 .err{
     border-color: red;
 }
+
+
+@media screen and (max-width: 600px) {
+    .editor-cont{
+        margin-bottom: 150px;
+    }
+}

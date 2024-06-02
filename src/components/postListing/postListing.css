@@ -30,6 +30,7 @@
 
 .filt-cont{
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .show {display:relative ;}

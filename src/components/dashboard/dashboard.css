@@ -2,6 +2,7 @@
 .dash-cont{
     width: 100%;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .dashboard-card{
@@ -35,5 +36,12 @@
   }
 
 
-
+  @media screen and (max-width: 600px) {
+    .dash-card-cont{
+        margin-left: 0px;
+    }
+    .post-sel{
+        margin-bottom: 150px;
+    }
+  }
   

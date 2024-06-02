@@ -47,8 +47,12 @@ function App() {
   }
 
 
-  return (
+  return (<>
     <div className="App flex-row">
+      
+
+
+      {/* big screen nav*/ }
       <div className='sidebar'>
         
         <h1 className={state == "user-listing" ?'nav-main nav-main-selected' :'nav-main'} id="user-listing"
@@ -85,6 +89,27 @@ function App() {
       :<></>}</>
       
     </div>
+    <div className='navbar'>
+      <h1 className={state == "user-listing" ?'nav-phone nav-main-selected' :'nav-phone'} id="user-listing"
+        onClick={()=>{
+          changeState("user-listing")
+          }}>Users  </h1>
+          
+      <h1 className={state == "post-listing" ?'nav-phone nav-main-selected' :'nav-phone'} id="post-listing"
+        onClick={()=>{
+        changeState("post-listing")
+        }}>Posts </h1>
+      <h1 className={state == "dashboard" ?'nav-phone nav-main-selected' :'nav-phone'} id="dashboard"
+        onClick={()=>{
+          changeState("dashboard")
+          }}>Dashboard</h1>
+      <h1 className={state == "create-post" ?'nav-phone nav-main-selected' :'nav-phone'} id="create-post"
+        onClick={()=>{
+          setFocus()
+          changeState("create-post")
+          }}>editor</h1>
+    </div>
+    </>
   );
 }
 
