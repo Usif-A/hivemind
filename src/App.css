@@ -81,6 +81,7 @@ body{
   .App{
     flex-direction: column-reverse !important;
 
+    margin-bottom: 150px;
   }
   .sidebar{
     display: none;
